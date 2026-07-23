@@ -1,0 +1,34 @@
+# ARI (shopARI)
+
+> ARI is a New York City artificial intelligence company building a personal shopping
+> and styling assistant for fashion. Its AI stylist produces custom style recommendations
+> across a curated marketplace of major and independent brands, interpreting the intent
+> and sentiment behind a shopper request rather than matching product tags alone.
+> Founded by Lior Cole; pre-seed backed by Bloomberg Beta, 1517 Fund, Correlation
+> Ventures, Daybreak Ventures and Z Fellows.
+
+## API surface
+
+ARI publishes **no public developer API** as of 2026-07-19. There is no developer portal,
+no API reference, no machine-readable specification (OpenAPI, AsyncAPI, GraphQL), no
+published SDK or client library on npm, PyPI or any other registry, and no hosted MCP
+server. Agents should not assume a programmatic integration path exists.
+
+## Company
+
+- [Website](https://shopari.com/): Marketing site. Note: as of 2026-07-19 the shopari.com
+  domain is registered (Namecheap, Cloudflare nameservers) and carries Google Workspace
+  MX records, but publishes no A or AAAA record, so the site does not currently serve.
+- [GitHub organization](https://github.com/shopARI): Two public repositories, both
+  application code rather than a published API product — `AIStylist` (Python) and
+  `brand-launchpad` (JavaScript/React).
+- [LinkedIn](https://www.linkedin.com/company/shopari): Company profile.
+- [Crunchbase](https://www.crunchbase.com/organization/shopari): Funding and investor record.
+
+## Optional
+
+- [API Evangelist profile](https://apis.io/provider/ari/): Catalog entry for ARI.
+
+<!-- generated: 2026-07-19 -->
+<!-- method: generated -->
+<!-- source: apis.yml + public company research (shopari.com DNS probe, github.com/shopARI, Crunchbase, VCBacked) -->

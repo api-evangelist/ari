@@ -1,25 +1,69 @@
 aid: ari
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ari.png
 name: ARI
-description: ARI is a company surfaced as a portfolio company of bloomberg-beta and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'ARI (shopARI) is a New York City based artificial intelligence company
+  building a personal shopping and styling assistant for fashion. The product is positioned
+  as an AI stylist that produces custom style recommendations across a curated marketplace
+  of both major and independent brands, interpreting the intent and sentiment behind
+  a shopper request rather than matching product tags alone. The company was founded
+  by Lior Cole and has raised pre-seed capital from investors including Bloomberg Beta,
+  1517 Fund, Correlation Ventures, Daybreak Ventures and Z Fellows. As of this enrichment
+  pass ARI operates as a consumer application and publishes no public developer API,
+  documentation portal, SDKs or machine-readable specification; the shopari.com domain
+  is registered and carries mail records but resolves no web address record.'
 url: https://raw.githubusercontent.com/api-evangelist/ari/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bloomberg-beta
+- 1517-fund
+- correlation-ventures
+- daybreak-ventures
+- z-fellows
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Fashion
+- Retail Technology
+- Marketplace
+- E-Commerce
+- Personalization
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
 - type: Website
   url: https://shopari.com/
+- type: GitHubOrganization
+  url: https://github.com/shopARI
+- type: LinkedIn
+  url: https://www.linkedin.com/company/shopari
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/shopari
+- type: LLMsTxt
+  url: llms/ari-llms.txt
